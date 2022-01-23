@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Background Colors */
+body {
+    background-color: #A6F2BB;
+    font-family: 'Mochiy Pop P One', Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* Information Bar */
+
+section.info {
+    text-align: center; 
+    color: #FF6F6E;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    line-height: 30px;
+    font-family: 'Mochiy Pop P One', Helvetica, sans-serif;
+}
+
+/* Middle of page */
+
+section.mid {
+    text-align: center;
+    color: #D16A48;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border-radius: 20px;
+}
+
+section.mid h2 {
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+section.mid.h3 {
+    padding-bottom: 20px;
+}
+
+h3.funny {
+    padding:70px;
+    font-size: 20;
+    line-height: 20px;
+}
+
+/* Arrows */
+
+a.go {
+    position: relative;
+    float: right;
+    right: 0px;
+    bottom: 0px;
+    height: auto;
+    width: 50%;
+}
+
+a.back {
+    position: relative;
+    float: left;
+    left: 0px;
+    bottom: 0px;
+    height: auto;
+    width: 50%;
+}
+
+
+/* Footer */
+
+nav {
+    position: fixed;
+    bottom: 0;
+    left:0;
+    right: 0;
+    height: 30px;
+
+}
+
+a.start {
+    font-size: 30px;
+}
+
+
